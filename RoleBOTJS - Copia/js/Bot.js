@@ -4,6 +4,7 @@
 //---------------------------------------------------------------------
 
 const Bot = {};
+const token = process.env.token
 
 Bot.DBM = null;
 
