@@ -1,1 +1,1 @@
-{"token" = process.env.token,"client":"488119270861963274","tag":".","case":"false","separator":"\\s+","ownerId":"230432125546004490"}
+{"token":(process.env.token),"client":"488119270861963274","tag":".","case":"false","separator":"\\s+","ownerId":"230432125546004490"}
