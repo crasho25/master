@@ -4,7 +4,6 @@
 //---------------------------------------------------------------------
 
 const Bot = {};
-const token = process.env.token;
 
 Bot.DBM = null;
 
@@ -66,7 +65,7 @@ Bot.initEvents = function() {
 };
 
 Bot.login = function() {
-	this.bot.login(process.env.token);
+	this.bot.login(this.DBM.Files.data.settings.token);
 };
 
 Bot.onReady = function() {
